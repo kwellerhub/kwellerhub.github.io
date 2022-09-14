@@ -14,6 +14,9 @@ title: kwellerhub - Lucas's Cat Site
 # Your name to show in the footer
 author: Lucas Rausch
 
+#THEME DEFINOR
+remote_theme: pages-themes/leap-day@v0.2.0
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
@@ -148,4 +151,4 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-remote-theme
